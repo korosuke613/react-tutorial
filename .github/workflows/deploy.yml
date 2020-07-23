@@ -15,6 +15,9 @@ jobs:
         with:
           node-version: 12.18.2
 
+      - name: Install dependent
+        run: yarn install
+
       - name: Build React
         run: yarn build
 
