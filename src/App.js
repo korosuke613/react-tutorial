@@ -1,7 +1,7 @@
 import React from "react";
 import logo from './logo.svg';
 import { Travel } from './Travel'
-import { Grid, AppBar, Card } from '@material-ui/core'
+import { Grid, AppBar } from '@material-ui/core'
 import './App.css';
 import {
   BrowserRouter as Router,
